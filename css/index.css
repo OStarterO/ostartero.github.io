@@ -1,0 +1,14 @@
+p {
+    width: 100%;
+}
+
+.grid-item {
+	margin: 5%;
+	border-radius: 20px;
+	background-color: #f2b705;
+}
+
+.grid-item:hover {
+	cursor: pointer;
+	background-color: #8c6b08;
+}
