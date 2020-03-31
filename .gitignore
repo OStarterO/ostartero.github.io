@@ -1,5 +1,6 @@
 *.yml
-*.vscode
+.vscode
+.json
 postingList.js
 forPosting.html
 forPost.css
