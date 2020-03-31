@@ -1,11 +1,25 @@
+body {
+	grid-template-columns: 10% 80% 10%;
+	grid-template-rows: 10% 80% 10%;
+}
+
 p {
-    width: 100%;
+	width: 100%;
+}
+
+.grid-container {
+	display: grid;
+	grid-row: 2;
+	grid-column: 2;
 }
 
 .grid-item {
 	margin: 5%;
 	border-radius: 20px;
 	background-color: #f2b705;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .grid-item:hover {
