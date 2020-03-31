@@ -1,3 +1,4 @@
+$("body").load("blog.html");
 var testFolder = "developing";
 var fs = require("fs");
 
