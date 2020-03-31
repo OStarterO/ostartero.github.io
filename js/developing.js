@@ -1,7 +1,2 @@
-$("body").load("blog.html");
-var testFolder = "developing";
-var fs = require("fs");
-
-fs.readdir(testFolder, function(error, filelist) {
-	console.log(filelist);
-});
+﻿$("body").load("blog.html");
+$("#content").load("hello.html");
